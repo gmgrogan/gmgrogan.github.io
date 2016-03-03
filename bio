@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Honeyfoot | The Band</title>
+		<link rel="stylesheet" type="text/css" href="/css/main.css">
+	</head>
+	<body>
+		<nav>
+    		<ul>
+        		<li><a href="/">home</a></li>
+	        	<li><a href="/bio">bio</a></li>
+        		<li><a href="/music">music</a></li>
+        		<li><a href="/skows">shows</a></li>
+        		<li><a href="/footage">footage</a></li>
+    		</ul>
+		</nav>
+		<div class="container">
+    		<div class="blurb">
+        		<ul>
+        		  <li><a href="/bio/otto">OTTO</li>
+        		  <li><a href="/bio/gillian">GILLIAN</li>
+        		  <li><a href="/bio/chris">CHRIS</li>
+        		</ul>
+    		</div><!-- /.blurb -->
+		</div><!-- /.container -->
+		<footer>
+			<p>&copy;2016 Honeyfoot. All Rights Reserved.</p>
+		</footer>
+	</body>
+</html>
