@@ -1,1 +1,0 @@
-# gmgrogan.github.io
