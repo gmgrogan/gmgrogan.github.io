@@ -159,7 +159,10 @@ div#long_blurb {
 	opacity: 0.9;
 	background-color: hsla(34, 85%, 17%, 0.3);
 }
-
+div#narrowfeature {
+	margin-top: 5%;
+	max-width: 60%;
+}
 /*---------------------------------FOOTER---------------------------------*/
 footer {
 	position: fixed;
