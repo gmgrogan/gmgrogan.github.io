@@ -118,10 +118,11 @@ p.boldcaps {
 	margin-bottom: 5%;
 }
 #contact_container {
-	background-color: hsla(34, 85%, 17%, 0.3);
+	/*background-color: hsla(34, 85%, 17%, 0.3);*/
+	background-color: hsla(0,100%,100%,0.15);
 	float: right;
 	max-width: 30%;
-	margin-top: 8%;
+	margin-top: 4%;
 	margin-bottom: 5%;
 	margin-right: 25%;
 	margin-left: 2%;
