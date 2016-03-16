@@ -208,10 +208,10 @@ div#bio_feature li {
     margin-right: 4%;
     margin-left: -1%;
 }
-/*div#bio_feature {
-    margin-top: 5%;
-    margin-bottom: 5%;
-} */
+div#bio_feature {
+    margin-top: 2%;
+    margin-bottom: 2%;
+} 
 ul.enlarge li {
     position: relative;
     z-index: 0;
