@@ -27,8 +27,7 @@ header#big {
 	z-index: 20;
 }
 #custom_honeyfoot_banner_name {
-	max-width: 65%;
-	max-height: 25%;
+	max-width: 60%;
 	margin-top: 0.5%;
 	z-index: 21;
 	opacity: 0.9;
@@ -103,9 +102,8 @@ p.boldcaps {
 	opacity: 0.8;
 }
 #feature_image {
-	margin-top: 3%;
-	max-width: 50%;
-	max-height: 80%;
+
+	max-width: 35%;
 	opacity: 0.9;
 	margin-bottom: 5%;
 }
