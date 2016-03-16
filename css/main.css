@@ -5,7 +5,7 @@
 @import url('../fonts/sinkin-sans-fontfacekit/web%20fonts/sinkinsans_200xlightitalic_macroman/stylesheet.css');
 @import url('../fonts/sinkin-sans-fontfacekit/web%20fonts/sinkinsans_400regular_macroman/stylesheet.css');
 @import url('../fonts/sinkin-sans-fontfacekit/web%20fonts/sinkinsans_300light_macroman/stylesheet.css');
-
+@import url('//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css');
 
 * {
 	margin: auto;
@@ -111,9 +111,9 @@ p.boldcaps {
 }
 #contact_feature_image {
 	float: left;
-	margin-top: 3%;
-	margin-left: 25%;
-	width: 15%;
+	margin-top: 2%;
+	margin-left: 23%;
+	width: 18%;
 	opacity: 0.8;
 	margin-bottom: 5%;
 }
@@ -122,9 +122,9 @@ p.boldcaps {
 	background-color: hsla(0,100%,100%,0.15);
 	float: right;
 	max-width: 30%;
-	margin-top: 4%;
+	margin-top: 2%;
 	margin-bottom: 5%;
-	margin-right: 25%;
+	margin-right: 24%;
 	margin-left: 2%;
 	padding-right: 3%;
 	padding-top: 2%;
@@ -276,3 +276,30 @@ div#clockdiv {
 div#countdown {
 	margin-top: 1%;
 }
+/*----------------Mail Chimp Form Style ------------------------------*/
+#mce-EMAIL {
+	width: 80%;
+}
+#mc_embed_signup {
+	background:hsla(0,100%,100%,0); 
+	clear:left; 
+	font-size: 1em; 
+	width:95%; 
+	padding: 3%;
+}
+#mc_embed_signup .email {
+	font-family: 'bearpawregular'; 
+	font-size: 1.3em;
+	background-color: hsla(0,100%,100%,0.7);
+	color: #eeb81c;
+	height: 25px;
+}
+#mc_embed_signup .button {
+	font-family: 'bearpawregular'; 
+	font-size: 1.6em;
+	background-color: #eeb81c;
+	opacity: 0.9;
+	color: white;
+	height: 40px;
+}
+/*---------------------END Mail Chimp FORM----------------------*/
