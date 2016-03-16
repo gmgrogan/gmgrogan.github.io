@@ -200,7 +200,7 @@ div#copyright {
 /*-----------------------------bio popout stuff----------------------------*/
 img.bio {
     width: 25%;
-    height: 40%;
+    height: 35%;
     margin: 1%;
 }
 div#bio_feature li {
@@ -237,9 +237,9 @@ h2 {
     text-align: left;
     color: #ffffff;
     position: absolute;
-    top: 30%;
+    top: 80%;
     left: 1%;
-    width:100%;
+    width:auto;
 }
 p.quote {
     font-size: 0.8em;
