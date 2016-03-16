@@ -4,6 +4,7 @@
 @import url('../fonts/sinkin-sans-fontfacekit/web%20fonts/sinkinsans_200xlight_macroman/stylesheet.css');
 @import url('../fonts/sinkin-sans-fontfacekit/web%20fonts/sinkinsans_200xlightitalic_macroman/stylesheet.css');
 @import url('../fonts/sinkin-sans-fontfacekit/web%20fonts/sinkinsans_400regular_macroman/stylesheet.css');
+@import url('../fonts/sinkin-sans-fontfacekit/web%20fonts/sinkinsans_300light_macroman/stylesheet.css');
 
 
 * {
@@ -73,7 +74,7 @@ ul#navcontainer li a {
 
 h1 {
 	border-color: white;
-	font-family: "sinkin_sans200_x_light";
+	font-family: "sinkin_sans300_light";
 	color: white;
 	font-size: 0.7em;
 }
@@ -138,14 +139,23 @@ li#contact h1 {
 div#short_blurb  {
 	max-width: 40%;
 	color: white;
-	opacity: 0.9;
 	background-color: hsla(34, 85%, 17%, 0.3);
+	/*background-color: hsla(0,100%,100%,0.1);*/
+	text-align: left;
+	margin-top: 1.5%;
 }
 div#long_blurb {
-	max-width: 70%;
+	max-width:40%;
+}
+h1.longblurb {
 	color: white;
-	opacity: 0.9;
 	background-color: hsla(34, 85%, 17%, 0.3);
+	/*background-color: hsla(0,100%,100%,0.1);*/
+	width: auto;
+}
+h1.leftalign {
+	text-align: left;
+	text-indent: 30px;
 }
 div#narrowfeature {
 	max-width: 60%;
