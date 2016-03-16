@@ -9,7 +9,6 @@
 * {
 	margin: auto;
 	text-align: center;
-	font-family: "Josefin-Slab",'Helvetica','Sans Serif';
 	font-size: 1em;
 	list-style: none;
 }
@@ -19,8 +18,8 @@ body {
 	background-image: url("../images/backgrounds/wood-wallpaper.jpg");
 }
 header#big {
-	padding-bottom: 10px;
-	padding-top: 10px;
+	padding-bottom: 1%;
+	padding-top: 1%;
 	width: 100%;
 	/*position: fixed;*/
 	/*background-color: hsla(34, 85%, 87%, 0.6);*/
@@ -28,22 +27,22 @@ header#big {
 }
 #custom_honeyfoot_banner_name {
 	max-width: 65%;
-	max-height: 250px;
-	margin-top: 5px;
+	max-height: 25%;
+	margin-top: 0.5%;
 	z-index: 21;
 	opacity: 0.9;
 }
 #custom_honeyfoot_banner_name_small {
 	max-width: 65%;
-	max-height: 150px;
-	margin-top: 5px;
+	max-height: 15%;
+	margin-top: 0.5%;
 	z-index: 21;
 	opacity: 0.9;
 }
 
 /*---------------------------------------NAV---------------------------------------*/
 nav {
-	margin-top: 15px;
+	margin-top: 1.5%;
 	width: 100%;
 	/*background-color: hsla(34, 85%, 87%, 0.6);*/
 	z-index: 20;
@@ -59,8 +58,8 @@ nav {
 ul#navcontainer li {
 	border-color: gray;
 	display: inline-block;
-	margin-right: 32px;
-	margin-left: -20px;
+	margin-right: 3.2%;
+	margin-left: -2%;
 }
 ul#navcontainer li a {
 	font-family: 'bearpawregular', 'Arial';
@@ -95,7 +94,6 @@ a {
 	font-size: 1em;
 }
 p.boldcaps {
-	margin-top: 10px;
 	font-style: bold;
 	font-size: 7em;
 	color: white;
@@ -104,27 +102,12 @@ p.boldcaps {
 .muted {
 	opacity: 0.8;
 }
-figure {
-	position: relative;
-	border-color: tan;
-	margin: 20px auto;
-	height: 150px;
-}
-figure img {
-	position: absolute;
-	background: yellow;
-	margin: 20px;
-	top: 50%;
-	left: 50%;
-	margin-right: -50%;
-	transform: translate(-73%, -50%);
-}
 #feature_image {
-	margin-top: 30px;
+	margin-top: 3%;
 	max-width: 50%;
 	max-height: 80%;
 	opacity: 0.9;
-	margin-bottom: 50px;
+	margin-bottom: 5%;
 }
 #contact_feature_image {
 	float: left;
@@ -150,11 +133,8 @@ li#contact h1 {
 	text-align: left;
 }
 #feature_image_small {
-	margin-top: 30px;
-	max-width: 25%;
-	max-height: 45%;
+	max-width: 20%;
 	opacity: 0.9;
-	margin-bottom: 50px;
 }	
 div#short_blurb  {
 	max-width: 40%;
@@ -194,16 +174,16 @@ ul#footer_icons {
 ul#footer_icons li {
 	list-style: none;
 	display: inline-block;
-	margin-right: 30px;
-	margin-left: -15px;
+	margin-right: 3%;
+	margin-left: -1.5%;
 }
 #footericon {
 	max-height: 35px;
 }
 div#copyright {
 	position: absolute;
-	bottom: 5px;
-	right: 5px;
+	bottom: 0.5%;
+	right: 0.5%;
 }
 	
 #copyright {
@@ -212,22 +192,23 @@ div#copyright {
 	font-size: 0.5em;
 	font-weight: lighter;
 	font-family: 'District Pro','Existence','Avenir';
+	margin-bottom: 3px;
 }
 /*---------------------------end footer----------------------------------*/
 
 
 /*-----------------------------bio popout stuff----------------------------*/
 img.bio {
-    width: 250px;
-    height: 250px;
-    margin: 10px;
+    width: 25%;
+    height: 40%;
+    margin: 1%;
 }
 div#bio_feature li {
     display: inline;
     list-style: none;
-    margin: 20px;
-    margin-right: 40px;
-    margin-left: -10px;
+    margin: 2%;
+    margin-right: 4%;
+    margin-left: -1%;
 }
 div#bio_feature {
     margin-top: 5%;
@@ -247,7 +228,7 @@ ul.enlarge li:hover {
 }
 ul.enlarge li:hover span {
     top: -300px;
-    left: -20px;
+    left: -25%;
 }
 h2 {
     font-family:"Special Elite";
@@ -256,8 +237,8 @@ h2 {
     text-align: left;
     color: #ffffff;
     position: absolute;
-    top: 300px;
-    left: 10px;
+    top: 30%;
+    left: 1%;
     width:100%;
 }
 p.quote {
@@ -265,8 +246,20 @@ p.quote {
     text-align: center;
 }
 ul.enlarge li:hover:nth-child(2) span {
-    left -100px;
+    left -10%;
 }
 ul.enlarge li:hover:nth-child(3) span {
-    left: -200px;
+    left: -20%;
+}
+/*----------------------end Bio Popout Stuff---------------------------*/
+
+div#clockdiv {
+	font-family: 'bearpawregular';
+	font-style: bold;
+	color: white;
+	font-size: 7em;
+	margin-bottom: 5%;
+}
+div#countdown {
+	margin-top: 1%;
 }
