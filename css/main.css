@@ -33,8 +33,7 @@ header#big {
 	opacity: 0.9;
 }
 #custom_honeyfoot_banner_name_small {
-	max-width: 65%;
-	max-height: 15%;
+	max-width: 39%;
 	margin-top: 0.5%;
 	z-index: 21;
 	opacity: 0.9;
@@ -50,7 +49,7 @@ nav {
 #navcontainer ul {
 	/*position: fixed;*/
 	list-style: none;
-	padding: 0px;
+	padding: 0;
 	text-align: center;
 	width: 60%;
 	left: 20%;
@@ -153,9 +152,9 @@ div#narrowfeature {
 	max-width: 60%;
 	margin-bottom: 2%;
 }
-div.feature {
+/*div.feature {
 	margin-top: 2%;
-}
+} */
 /*---------------------------------FOOTER---------------------------------*/
 footer {
 	position: fixed;
