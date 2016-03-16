@@ -74,7 +74,7 @@ ul#navcontainer li a {
 
 h1 {
 	border-color: white;
-	font-family: "sinkin_sans300_light";
+	font-family: "sinkin_sans400_regular";
 	color: white;
 	font-size: 0.7em;
 }
@@ -114,7 +114,7 @@ p.boldcaps {
 	margin-top: 3%;
 	margin-left: 25%;
 	width: 15%;
-	opacity: 0.9;
+	opacity: 0.8;
 	margin-bottom: 5%;
 }
 #contact_container {
@@ -139,18 +139,22 @@ li#contact h1 {
 div#short_blurb  {
 	max-width: 40%;
 	color: white;
-	background-color: hsla(34, 85%, 17%, 0.3);
-	/*background-color: hsla(0,100%,100%,0.1);*/
+	/*background-color: hsla(34, 85%, 17%, 0.3);*/
+	background-color: hsla(0,100%,100%,0.15);
 	text-align: left;
 	margin-top: 1.5%;
+	margin-right: 29.5%;
+	padding: 1.5%;
 }
 div#long_blurb {
 	max-width:40%;
+	padding: 1.5%;
+	
 }
 h1.longblurb {
 	color: white;
-	background-color: hsla(34, 85%, 17%, 0.3);
-	/*background-color: hsla(0,100%,100%,0.1);*/
+	/*background-color: hsla(34, 85%, 17%, 0.3);*/
+	background-color: hsla(0,100%,100%,0.15);
 	width: auto;
 }
 h1.leftalign {
