@@ -1,0 +1,309 @@
+@import url('../fonts/Nexa%20Rust%20Free-Webfont/Webfonts/nexarustslab_blackshadow01free_macroman/stylesheet.css');
+@import url('../fonts/Bearpaw-fontfacekit/web%20fonts/bearpaw_regular_macroman/stylesheet.css');
+@import url('../fonts/Capture-it-fontfacekit/web%20fonts/captureit_regular_macroman/stylesheet.css');
+@import url('../fonts/sinkin-sans-fontfacekit/web%20fonts/sinkinsans_200xlight_macroman/stylesheet.css');
+@import url('../fonts/sinkin-sans-fontfacekit/web%20fonts/sinkinsans_200xlightitalic_macroman/stylesheet.css');
+@import url('../fonts/sinkin-sans-fontfacekit/web%20fonts/sinkinsans_400regular_macroman/stylesheet.css');
+@import url('../fonts/sinkin-sans-fontfacekit/web%20fonts/sinkinsans_300light_macroman/stylesheet.css');
+@import url('//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css');
+
+* {
+	margin: auto;
+	text-align: center;
+	font-size: 1em;
+	list-style: none;
+}
+body {
+	border-color: blue;
+	/*background-color: #FAE1C0;*/
+	background-color: hsla(212, 32%, 56%, 1.0);
+}
+header#big {
+	padding-bottom: 1%;
+	padding-top: 1%;
+	width: 100%;
+	/*position: fixed;*/
+	/*background-color: hsla(34, 85%, 87%, 0.6);*/
+	z-index: 20;
+}
+@media only screen and (min-width: 480px) {
+	#custom_honeyfoot_banner_name_small {
+	max-width: 25%;
+	margin-top: 0.5%;
+	z-index: 21;
+	opacity: 0.9;
+}
+}
+@media only screen and (max-width: 480px) {
+	body {
+		background-color: white;
+	}
+	#custom_honeyfoot_banner_name_small {
+		width: 60%;
+		margin-top: 0.5%;
+		z-index: 21;
+		opacity: 0.9;
+	}
+
+/*---------------------------------------NAV---------------------------------------*/
+nav {
+	margin-top: 1.5%;
+	width: 100%;
+	/*background-color: hsla(34, 85%, 87%, 0.6);*/
+	z-index: 20;
+}
+#navcontainer ul {
+	/*position: fixed;*/
+	list-style: none;
+	padding: 0;
+	text-align: center;
+	width: 60%;
+	left: 20%;
+} 
+ul#navcontainer li {
+	border-color: gray;
+	display: inline-block;
+	margin-right: 3.2%;
+	margin-left: -2%;
+}
+ul#navcontainer li a {
+	font-family: 'bearpawregular', 'Arial';
+	font-size: 2.8em;
+	text-transform: uppercase;
+	color: #ffffff;
+	/*color: #FABC02;*/
+	/*color: #EEB81C;*/
+	opacity: 0.9;
+}
+/*------------------------------------end Navigation-----------------------------*/
+
+h1 {
+	border-color: white;
+	font-family: "sinkin_sans400_regular";
+	color: white;
+	font-size: 0.7em;
+}
+h1 i {
+	font-family: "sinkin_sans200_x_light_italic";
+	color: white;
+	font-size: 1em;
+}
+a {
+	border-style: none;
+	text-decoration: none;
+	color: #ffffff;
+}
+.bold_sinkin_sans {
+	font-family: "sinkin_sans400_regular";
+	color: white;
+	font-size: 1em;
+}
+p.boldcaps {
+	font-style: bold;
+	font-size: 7em;
+	color: white;
+	font-family: 'bearpawregular';
+}
+.muted {
+	opacity: 0.8;
+}
+#feature_image {
+
+	max-width: 35%;
+	opacity: 0.9;
+	margin-bottom: 5%;
+}
+#contact_feature_image {
+	float: left;
+	margin-top: 2%;
+	margin-left: 23%;
+	width: 18%;
+	opacity: 0.8;
+	margin-bottom: 5%;
+}
+#contact_container {
+	/*background-color: hsla(34, 85%, 17%, 0.3);*/
+	background-color: hsla(0,100%,100%,0.15);
+	float: right;
+	max-width: 30%;
+	margin-top: 2%;
+	margin-bottom: 5%;
+	margin-right: 24%;
+	margin-left: 2%;
+	padding-right: 3%;
+	padding-top: 2%;
+	padding-bottom: 2%;
+}
+li#contact h1 {
+	text-align: left;
+}
+#feature_image_small {
+	max-width: 20%;
+	opacity: 0.9;
+}	
+div#short_blurb  {
+	max-width: 40%;
+	color: white;
+	/*background-color: hsla(34, 85%, 17%, 0.3);*/
+	background-color: hsla(0,100%,100%,0.15);
+	text-align: left;
+	margin-top: 1.5%;
+	margin-right: 29.5%;
+	padding: 1.5%;
+}
+div#long_blurb {
+	max-width:40%;
+	padding: 1.5%;
+	
+}
+h1.longblurb {
+	color: white;
+	/*background-color: hsla(34, 85%, 17%, 0.3);*/
+	background-color: hsla(0,100%,100%,0.15);
+	width: auto;
+}
+h1.leftalign {
+	text-align: left;
+	text-indent: 30px;
+}
+div#narrowfeature {
+	max-width: 60%;
+	margin-bottom: 2%;
+}
+div.feature {
+	margin-top: 2%;
+} 
+/*---------------------------------FOOTER---------------------------------*/
+footer {
+	position: fixed;
+	bottom: 0px;
+	width: 100%;
+	height: 35px;
+	background-color: hsla(34, 85%, 17%, 0.6);
+}
+div#footercont {
+	position: relative;
+	bottom: 0;
+}
+ul#footer_icons {
+	display: inline;
+}
+ul#footer_icons li {
+	list-style: none;
+	display: inline-block;
+	margin-right: 3%;
+	margin-left: -1.5%;
+}
+#footericon {
+	max-height: 35px;
+}
+div#copyright {
+	position: absolute;
+	bottom: 0.5%;
+	right: 0.5%;
+}
+	
+#copyright {
+	color: #ffffff;
+	opacity: 0.8;
+	font-size: 0.5em;
+	font-weight: lighter;
+	font-family: 'District Pro','Existence','Avenir';
+	margin-bottom: 3px;
+}
+/*---------------------------end footer----------------------------------*/
+
+
+/*-----------------------------bio popout stuff----------------------------*/
+img.bio {
+    width: 25%;
+    height: 35%;
+    margin: 1%;
+}
+div#bio_feature li {
+    display: inline;
+    list-style: none;
+    margin: 2%;
+    margin-right: 4%;
+    margin-left: -1%;
+}
+div#bio_feature {
+    margin-top: 2%;
+    margin-bottom: 2%;
+} 
+ul.enlarge li {
+    position: relative;
+    z-index: 0;
+}
+ul.enlarge span {
+    position: absolute;
+    left: -9999px;
+}
+ul.enlarge li:hover {
+    z-index: 50;
+    cursor:pointer;
+}
+ul.enlarge li:hover span {
+    top: -300px;
+    left: -25%;
+}
+h2 {
+    font-family:"Special Elite";
+    font-size: 1.3em;
+    background-color: hsla(0,0%,10%,0.6);
+    text-align: left;
+    color: #ffffff;
+    position: absolute;
+    top: 80%;
+    left: 1%;
+    width:auto;
+}
+p.quote {
+    font-size: 0.8em;
+    text-align: center;
+}
+ul.enlarge li:hover:nth-child(2) span {
+    left -10%;
+}
+ul.enlarge li:hover:nth-child(3) span {
+    left: -20%;
+}
+/*----------------------end Bio Popout Stuff---------------------------*/
+
+div#clockdiv {
+	font-family: 'bearpawregular';
+	font-style: bold;
+	color: white;
+	font-size: 7em;
+	margin-bottom: 5%;
+}
+div#countdown {
+	margin-top: 1%;
+}
+/*----------------Mail Chimp Form Style ------------------------------
+#mce-EMAIL {
+	width: 80%;
+}
+#mc_embed_signup {
+	background:hsla(0,100%,100%,0); 
+	clear:left; 
+	font-size: 1em; 
+	width:95%; 
+	padding: 3%;
+}
+#mc_embed_signup input.email {
+	font-family: 'bearpawregular'; 
+	font-size: 1.3em;
+	background-color: hsla(0,100%,100%,0.7);
+	color: #000000;
+	height: 25px;
+}
+#mc_embed_signup .button {
+	font-family: 'bearpawregular'; 
+	font-size: 1.6em;
+	background-color: #eeb81c;
+	opacity: 0.9;
+	color: white;
+	height: 40px;
+}
+---------------------END Mail Chimp FORM----------------------*/
