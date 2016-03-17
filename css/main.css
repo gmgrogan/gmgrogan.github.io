@@ -173,6 +173,9 @@ div#narrowfeature {
 div.feature {
 	margin-top: 2%;
 } 
+.bottom_margin {
+	margin-bottom: 5%;
+}
 /*---------------------------------FOOTER---------------------------------*/
 footer {
 	position: fixed;
@@ -244,7 +247,7 @@ ul.enlarge li:hover {
     cursor:pointer;
 }
 ul.enlarge li:hover span {
-    top: -300px;
+    top: -400px;
     left: -25%;
 }
 h2 {
