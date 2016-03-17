@@ -98,6 +98,12 @@ p.boldcaps {
 	color: white;
 	font-family: 'bearpawregular';
 }
+p.honeypot_font {
+	font-size: 5em;
+}
+div.announcement {
+	margin-top: 1%
+}
 .muted {
 	opacity: 0.8;
 }
@@ -263,7 +269,7 @@ ul.enlarge li:hover:nth-child(3) span {
     left: -20%;
 }
 /*----------------------end Bio Popout Stuff---------------------------*/
-
+/*---------------------CLOCK------------------*/
 div#clockdiv {
 	font-family: 'bearpawregular';
 	font-style: bold;
