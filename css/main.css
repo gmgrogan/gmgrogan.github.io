@@ -285,7 +285,7 @@ div#countdown {
 	width:95%; 
 	padding: 3%;
 }
-#mc_embed_signup .email {
+#mc_embed_signup input.email {
 	font-family: 'bearpawregular'; 
 	font-size: 1.3em;
 	background-color: hsla(0,100%,100%,0.7);
