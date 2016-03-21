@@ -27,7 +27,7 @@ header#big {
 	z-index: 20;
 }
 #custom_honeyfoot_banner_name {
-	max-width: 60%;
+	max-width: 90%;
 	margin-top: 0.5%;
 	z-index: 21;
 	opacity: 0.9;
@@ -51,7 +51,7 @@ nav {
 	list-style: none;
 	padding: 0;
 	text-align: center;
-	width: 60%;
+	width: 90%;
 	left: 20%;
 } 
 ul#navcontainer li {
