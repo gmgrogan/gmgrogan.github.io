@@ -138,7 +138,7 @@ li#contact h1 {
 	text-align: left;
 }
 #feature_image_small {
-	max-width: 90%;
+	max-width: 80%;
 	opacity: 0.9;
 }	
 div#short_blurb  {
@@ -181,7 +181,7 @@ footer {
 	position: fixed;
 	bottom: 0px;
 	width: 100%;
-	height: 5%;
+	height: 15%;
 	background-color: hsla(34, 85%, 17%, 0.6);
 }
 div#footercont {
@@ -198,7 +198,7 @@ ul#footer_icons li {
 	margin-left: -1.5%;
 }
 #footericon {
-	height: 5%;
+	height: 13%;
 }
 div#copyright {
 	position: absolute;
