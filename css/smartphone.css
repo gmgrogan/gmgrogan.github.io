@@ -194,19 +194,18 @@ ul#footer_icons {
 ul#footer_icons li {
 	list-style: none;
 	display: inline-block;
-	margin-right: 5%;
+	margin-right: 10%;
 	margin-left: -1.5%;
 }
 #footericon {
 	height: 13%;
-	
+	opacity: 0.9;
 }
 div#copyright {
 	position: absolute;
 	bottom: 0;
 	right: 0.5%;
 }
-	
 #copyright {
 	color: #ffffff;
 	opacity: 0.8;
