@@ -192,7 +192,7 @@ footer {
 }
 div#footercont {
 	position: relative;
-	bottom: 0;
+	bottom: 0px;
 }
 ul#footer_icons {
 	display: inline;
@@ -201,15 +201,15 @@ ul#footer_icons li {
 	list-style: none;
 	display: inline-block;
 	margin-right: 10%;
-	margin-left: -2.5%;
+	margin-left: -3.5%;
 }
 #footericon {
 	height: 12%;
-	opacity: 0.9;
+	opacity: 0.8;
 }
 div#copyright {
 	position: absolute;
-
+	bottom: 0.5%;
 	right: 0.5%;
 }
 #copyright {
