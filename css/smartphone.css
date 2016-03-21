@@ -177,7 +177,7 @@ div.feature {
 	margin-top: 2%;
 } 
 .bottom_margin {
-	margin-bottom: 15%;
+	margin-bottom: 5%;
 }
 /*---------------------------------FOOTER---------------------------------*/
 footer {
@@ -206,7 +206,7 @@ ul#footer_icons li {
 }
 div#copyright {
 	position: absolute;
-	bottom: 0;
+	bottom: 0.5%;
 	right: 0.5%;
 }
 #copyright {
@@ -215,7 +215,6 @@ div#copyright {
 	font-size: 0.7em;
 	font-weight: lighter;
 	font-family: 'District Pro','Existence','Avenir';
-	margin-bottom: 3px;
 }
 /*---------------------------end footer----------------------------------*/
 
