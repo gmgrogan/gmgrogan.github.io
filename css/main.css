@@ -196,9 +196,10 @@ ul#footer_icons li {
 	display: inline-block;
 	margin-right: 3%;
 	margin-left: -1.5%;
+	margin-top: 5px;
 }
 #footericon {
-	max-height: 35px;
+	max-height: 25px;
 }
 div#copyright {
 	position: absolute;
