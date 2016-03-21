@@ -57,12 +57,12 @@ nav {
 ul#navcontainer li {
 	border-color: gray;
 	display: inline-block;
-	margin-right: 3.2%;
-	margin-left: -2%;
+	margin-right: 4.2%;
+	margin-left: -1%;
 }
 ul#navcontainer li a {
 	font-family: 'bearpawregular', 'Arial';
-	font-size: 2.8em;
+	font-size: 4em;
 	text-transform: uppercase;
 	color: #ffffff;
 	/*color: #FABC02;*/
