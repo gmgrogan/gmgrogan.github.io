@@ -99,7 +99,10 @@ p.boldcaps {
 	font-family: 'bearpawregular';
 }
 p.honeypot_font {
+	font-style: bold;
 	font-size: 8em;
+	color: white;
+	font-family: 'bearpawregular';
 }
 div.announcement {
 	margin-top: 1%
@@ -181,7 +184,7 @@ footer {
 	position: fixed;
 	bottom: 0px;
 	width: 100%;
-	height: 13%;
+	height: 10%;
 	background-color: hsla(34, 85%, 17%, 0.6);
 }
 div#footercont {
@@ -198,7 +201,7 @@ ul#footer_icons li {
 	margin-left: -1.5%;
 }
 #footericon {
-	height: 13%;
+	height: 10%;
 	opacity: 0.9;
 }
 div#copyright {
