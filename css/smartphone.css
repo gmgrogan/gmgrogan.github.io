@@ -92,20 +92,20 @@ a {
 	color: white;
 	font-size: 1em;
 }
-p.boldcaps {
-	font-style: bold;
-	font-size: 10em;
-	color: white;
-	font-family: 'bearpawregular';
-}
-p.honeypot_font {
-	font-style: bold;
+p._medium_lg_text {
 	font-size: 8em;
-	color: white;
+}
+p.lg_text {
+	font-size: 10em;
+}
+p.extra_lg_text {
+	font-size: 15em;
+}
+p.bearpaw {
 	font-family: 'bearpawregular';
 }
-p.lg_date {
-	font-size: 15em;
+p.white_text { 
+	color: white;
 }
 div.announcement {
 	margin-top: 1%
@@ -202,7 +202,7 @@ ul#footer_icons li {
 	list-style: none;
 	display: inline-block;
 	margin-right: 10%;
-	margin-left: 1.5%;
+	margin-left: 2%;
 	margin-top: 1%
 }
 #footericon {

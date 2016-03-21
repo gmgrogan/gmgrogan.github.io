@@ -92,17 +92,24 @@ a {
 	color: white;
 	font-size: 1em;
 }
-p.boldcaps {
-	font-style: bold;
+p.medium_text {
+	font-size: 5em;
+}
+p.medium_lg_text {
 	font-size: 7em;
-	color: white;
+}
+p.lg_text {
+	font-size: 8em;
+}
+p.extra_lg_text {
+	font-size: 13em;
+}
+p.bearpaw {
+	font-style: bold;
 	font-family: 'bearpawregular';
 }
-p.honeypot_font {
-	font-style: bold;
-	font-size: 8em;
+p.white_text {
 	color: white;
-	font-family: 'bearpawregular';
 }
 div.announcement {
 	margin-top: 1%
