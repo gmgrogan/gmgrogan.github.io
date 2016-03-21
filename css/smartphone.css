@@ -92,7 +92,7 @@ a {
 	color: white;
 	font-size: 1em;
 }
-p._medium_lg_text {
+p.medium_text {
 	font-size: 8em;
 }
 p.lg_text {
@@ -207,7 +207,7 @@ ul#footer_icons li {
 }
 #footericon {
 	height: 12%;
-	opacity: 0.7;
+	opacity: 0.8;
 }
 div#copyright {
 	position: absolute;
