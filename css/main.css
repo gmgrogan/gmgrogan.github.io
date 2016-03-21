@@ -140,6 +140,12 @@ li#contact h1 {
 #feature_image_small {
 	max-width: 20%;
 	opacity: 0.9;
+}
+@media only screen and (max-width: 480px) and (orientation: portrait) {
+	#feature_image_small {
+		max-width: 90%;
+		opacity: 0.9;
+	}
 }	
 div#short_blurb  {
 	max-width: 40%;
