@@ -189,6 +189,7 @@ footer {
 	width: 100%;
 	height: 10%;
 	background-color: hsla(34, 85%, 17%, 0.6);
+	margin-top: 10%;
 }
 div#footercont {
 	position: relative;
@@ -201,7 +202,8 @@ ul#footer_icons li {
 	list-style: none;
 	display: inline-block;
 	margin-right: 10%;
-	margin-left: -3.5%;
+	margin-left: -0.5%;
+	margin-top: 1%
 }
 #footericon {
 	height: 12%;

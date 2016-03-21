@@ -99,7 +99,10 @@ p.boldcaps {
 	font-family: 'bearpawregular';
 }
 p.honeypot_font {
-	font-size: 5em;
+	font-style: bold;
+	font-size: 8em;
+	color: white;
+	font-family: 'bearpawregular';
 }
 div.announcement {
 	margin-top: 1%
