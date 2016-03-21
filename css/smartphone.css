@@ -104,6 +104,9 @@ p.honeypot_font {
 	color: white;
 	font-family: 'bearpawregular';
 }
+p.lg_date {
+	font-size: 15em;
+}
 div.announcement {
 	margin-top: 1%
 }
@@ -198,15 +201,15 @@ ul#footer_icons li {
 	list-style: none;
 	display: inline-block;
 	margin-right: 10%;
-	margin-left: -1.5%;
+	margin-left: -2.5%;
 }
 #footericon {
-	height: 10%;
+	height: 12%;
 	opacity: 0.9;
 }
 div#copyright {
 	position: absolute;
-	bottom: 0.5%;
+
 	right: 0.5%;
 }
 #copyright {
