@@ -238,7 +238,7 @@ img.bio {
     margin: 1%;
 }
 div.feature_box {
-	    margin: 2%;
+	    margin: 0%;
 	  }
 div#bio_feature li {
     display: inline;
@@ -246,15 +246,12 @@ div#bio_feature li {
     margin-right: 3.5%;
     margin-left: 0%;
 }
-div#bio_feature {
-    margin-top: 2%;
-    margin-bottom: 2%;
-} 
 div.bio_title_box {
 	display: inline-block;
 	width: 18%;
 	margin-right: 4%;
 	margin-left: 4.5%;
+	margin-top: 2%;
 }
 .bio_title {
 	display: inline;
