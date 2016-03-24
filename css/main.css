@@ -87,10 +87,18 @@ a {
 	text-decoration: none;
 	color: #ffffff;
 }
+div.ticket_link a {
+	font-family: 'bearpawregular';
+	font-size: 3em;
+	color: white;
+}
 .bold_sinkin_sans {
 	font-family: "sinkin_sans400_regular";
 	color: white;
 	font-size: 1em;
+}
+.brown_text {
+	color: hsla(34, 85%, 17%, 1);
 }
 p.sm_text {
 	font-size: 2em;
