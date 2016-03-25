@@ -191,9 +191,12 @@ div.feature {
 }
 div#tell_me_moar {
 	position: absolute;
-	top: 25%;
-	left: 25%;
+	left: 15%;
 }
+img#tell_me_mas {
+	width: 60%;
+}
+
 /*---------------------------------FOOTER---------------------------------*/
 footer {
 	position: fixed;
