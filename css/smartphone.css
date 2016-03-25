@@ -191,7 +191,8 @@ div.feature {
 }
 div#tell_me_moar {
 	position: absolute;
-	left: 15%;
+	left: 5%;
+	top: 25%;
 }
 img#tell_me_mas {
 	width: 60%;
