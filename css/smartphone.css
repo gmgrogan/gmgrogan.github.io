@@ -189,6 +189,11 @@ div.feature {
 .bottom_margin {
 	margin-bottom: 10%;
 }
+div#tell_me_moar {
+	position: absolute;
+	top: 25%;
+	left: 25%;
+}
 /*---------------------------------FOOTER---------------------------------*/
 footer {
 	position: fixed;

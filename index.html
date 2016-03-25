@@ -26,6 +26,9 @@
     		<div id="countdown">
     			<p class="lg_text white_text bearpaw">COUNTDOWN<br>TO THE</p>
     		</div>
+    		<div id="tell_me_moar">
+    		        <img src="./images/interface/tell%20me%20more.png" alt="Click for more info" title="Tell me MOAR!" id="tell_me_mas">
+    		</div>
     		<div id="countdown_feature_image">
 			<a href="./honeypot"><img src="./images/cartoons/honey%20pot%20color.png" alt="Honey Pot" id="feature_image_small" title="Honey Pot. &copy 2015 Gillian Grogan."/></a>
 		</div>
@@ -37,7 +40,7 @@
 		                var t = Date.parse(endtime) - Date.parse(new Date());
 		                var seconds = Math.floor( (t/1000) % 60 );
 		                var minutes = Math.floor( (t/1000/60) % 60 );
-		                var hours = Math.floor( (t/1000*60*60) % 24 );
+		                var hours = Math.floor( (t/(1000*60*60)) % 24 );
 		                var days = Math.floor( t/(1000*60*60*24) );
 		                return {
 		                        'total' : t,
@@ -56,8 +59,8 @@
 	                </div>
 	                <script>
 		        function initializeClock(id, endtime) {
-		                var clock = document.getElementById(id);
-		                var daysSpan = clock.querySelector('.days');
+		             var clock = document.getElementById(id);
+		             var daysSpan = clock.querySelector('.days');
                                 var hoursSpan = clock.querySelector('.hours');
                                 var minutesSpan = clock.querySelector('.minutes');
                                 var secondsSpan = clock.querySelector('.seconds');
