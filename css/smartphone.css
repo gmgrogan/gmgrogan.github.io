@@ -91,6 +91,11 @@ a {
 	color: white;
 	font-size: 1em;
 }
+div.ticket_link a {
+	font-family: 'bearpawregular';
+	font-size: 3em;
+	color: white;
+}
 p.medium_text {
 	font-size: 8em;
 }
