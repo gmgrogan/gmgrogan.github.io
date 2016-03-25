@@ -106,7 +106,7 @@ p.bearpaw {
 p.white_text { 
 	color: white;
 }
-p.brown_text {
+.brown_text {
 	color: hsla(34, 85%, 17%, 1);
 }
 div.announcement {
