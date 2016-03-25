@@ -43,7 +43,6 @@ header#big {
 nav {
 	margin-top: 1.5%;
 	width: 100%;
-	/*background-color: hsla(34, 85%, 87%, 0.6);*/
 	z-index: 20;
 }
 #navcontainer ul {
@@ -106,6 +105,9 @@ p.bearpaw {
 }
 p.white_text { 
 	color: white;
+}
+p.brown_text {
+	color: hsla(34, 85%, 17%, 1);
 }
 div.announcement {
 	margin-top: 1%
