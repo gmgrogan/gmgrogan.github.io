@@ -95,6 +95,8 @@ div.ticket_link a {
 	font-family: 'bearpawregular';
 	font-size: 5em;
 	color: white;
+}
+div.ticket_link {
 	margin: 2%;
 }
 p.medium_text {
