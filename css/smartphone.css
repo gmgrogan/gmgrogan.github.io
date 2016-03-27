@@ -53,6 +53,11 @@ div#mobile_nav_container {
 	z-index: 100;
 }
 
+img#menu_icon {
+	width: 50px;
+	height: 50px;
+}
+
 ul#mobile_menu, ul#dropdown_container {
 	display: inline;
 	margin: 0;
@@ -87,9 +92,10 @@ ul#mobile_menu li ul li {
 ul#mobile_menu li ul li a {
 	display: block;
 	font-family: 'bearpawregular';
-	font-size: 10em;
+	font-size: 12em;
 	color: hsla(24, 85%, 17%, 1);
 	text-decoration: none;
+	padding: 2%;
 	}
 
 ul#mobile_menu li ul li:hover a {
