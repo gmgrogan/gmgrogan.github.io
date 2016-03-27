@@ -50,8 +50,8 @@ div#horizontal_nav_container {
 }
 div#mobile_nav_container {
 	position: fixed;
-	top:0;
-	right:0;
+	top: 5%;
+	right: 3%;
 	z-index: 100;
 }
 
@@ -100,6 +100,7 @@ ul#mobile_menu li ul li a {
 	color: hsla(24, 85%, 17%, 1);
 	text-decoration: none;
 	padding: 2%;
+	margin: 1%;
 	}
 
 ul#mobile_menu li ul li:hover a {
