@@ -40,6 +40,12 @@ header#big {
 }
 
 /*---------------------------------------NAV---------------------------------------*/
+
+div#mobile_nav_container {
+	display: hidden;
+	position: absolute;
+	left: -99999px;
+}
 nav {
 	margin-top: 1.5%;
 	width: 100%;
@@ -69,8 +75,63 @@ ul#navcontainer li a {
 	/*color: #EEB81C;*/
 	opacity: 0.9;
 }
+
+/* div#mobile_nav_container {
+	position: fixed;
+	top:0;
+	right:0;
+	z-index: 100;
+}
+
+ul#mobile_menu, ul#dropdown_container {
+	display: inline;
+	margin: 0;
+	padding: 0;
+}
+
+ul#mobile_menu li {
+	display: inline-block;
+}
+
+ul#mobile_menu li:hover {
+	opacity: 1;
+}
+
+ul#mobile_menu li:hover ul {
+	display: block;
+}
+
+ul#mobile_menu li ul {
+	position: absolute;
+	right: 0;
+	top: 0;
+	display: none;
+}
+
+ul#mobile_menu li ul li {
+	background-color: white;
+	display: block;
+	opacity: 0.8;
+}
+
+ul#mobile_menu li ul li a {
+	display: block;
+	font-family: 'bearpawregular';
+	font-size: 10em;
+	color: hsla(24, 85%, 17%, 1);
+	text-decoration: none;
+	}
+
+ul#mobile_menu li ul li:hover a {
+	background-color: hsla(24, 85%, 17%, 1);
+	color: white;
+	opacity: 1;
+}
+*/	
+
 /*------------------------------------end Navigation-----------------------------*/
 
+/*--------------------- FONTS--------------------------------*/
 h1 {
 	border-color: white;
 	font-family: "sinkin_sans300_light";
@@ -125,11 +186,13 @@ p.bearpaw {
 p.white_text {
 	color: white;
 }
-div.announcement {
-	margin-top: 1%
-}
 .muted {
 	opacity: 0.8;
+}
+
+/*--------------------FEATURES-------------------*/
+div.announcement {
+	margin-top: 1%
 }
 #feature_image {
 
