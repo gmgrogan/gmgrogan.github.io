@@ -198,8 +198,9 @@ div.announcement {
 	bottom: 10%;
 	margin-top: 2%;
 	width: 50%;
-	opacity: 0.8;
+	opacity: 0.4;
 	margin-bottom: 5%;
+	z-index: -10;
 }
 #contact_container {
 	/*background-color: hsla(34, 85%, 17%, 0.3);*/
