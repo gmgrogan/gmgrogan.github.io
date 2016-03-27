@@ -111,13 +111,13 @@ ul#mobile_menu li ul li {
 ul#mobile_menu li ul li a {
 	display: block;
 	font-family: 'bearpawregular';
-	font-size: 9em;
+	font-size: 10em;
 	color: white;
 	text-decoration: none;
 	padding: 1%;
 	margin: 2%;
 	text-align: center;
-	padding-top: 40px;
+	padding-top: 35px;
 	padding-left: 40px;
 	padding-right: 40px;
 }
