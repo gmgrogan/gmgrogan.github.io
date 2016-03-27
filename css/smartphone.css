@@ -25,15 +25,14 @@ header#big {
 	/*position: fixed;*/
 	/*background-color: hsla(34, 85%, 87%, 0.6);*/
 	z-index: 20;
-	background-color: hsla(34, 85%, 17%, 0.6);
 }
 #custom_honeyfoot_banner_name {
-	max-width: 70%;
+	max-width: 80%;
 	margin-top: 0.5%;
 	z-index: 21;
 	opacity: 0.9;
 	float: left;
-	margin-left: 6%;
+	margin-left: 3%;
 	height: 190px;
 	padding: 5px;
 
@@ -60,9 +59,9 @@ div#mobile_nav_container {
 }
 
 img#menu_icon {
-	width: 200px;
-	height: 200px;
-	opacity: 0.8;
+	width: 250px;
+	height: 250px;
+	opacity: 0.7;
 }
 
 ul#mobile_menu, ul#dropdown_container {
@@ -81,7 +80,7 @@ ul#mobile_menu li:hover {
 
 ul#mobile_menu li:hover ul {
 	display: block;
-	top: 200px;
+	top: 250px;
 }
 
 ul#mobile_menu li ul {
@@ -92,9 +91,8 @@ ul#mobile_menu li ul {
 }
 
 ul#mobile_menu li ul li {
-	background-color: hsla(34, 85%, 17%, 0.6);
+	background-color: hsla(34, 85%, 17%, 0.8);
 	display: block;
-	opacity: 0.8;
 }
 
 ul#mobile_menu li ul li a {
