@@ -27,11 +27,12 @@ header#big {
 	z-index: 20;
 }
 #custom_honeyfoot_banner_name {
-	max-width: 85%;
+	max-width: 75%;
 	margin-top: 0.5%;
 	z-index: 21;
 	opacity: 0.9;
 	float: left;
+	margin-left: 3%;
 }
 #custom_honeyfoot_banner_name_small {
 	max-width: 39%;
@@ -55,9 +56,9 @@ div#mobile_nav_container {
 }
 
 img#menu_icon {
-	width: 180px;
-	height: 180px;
-	opacity: 0.7;
+	width: 150px;
+	height: 150px;
+	opacity: 0.9;
 }
 
 ul#mobile_menu, ul#dropdown_container {
@@ -76,7 +77,7 @@ ul#mobile_menu li:hover {
 
 ul#mobile_menu li:hover ul {
 	display: block;
-	top: 180px;
+	top: 150px;
 }
 
 ul#mobile_menu li ul {
