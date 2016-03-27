@@ -126,7 +126,9 @@ ul#mobile_menu li ul li:hover a {
 	background-color: hsla(24, 85%, 17%, 1);
 	color: white;
 	opacity: 0.8;
+	clear: both;
 }
+
 
 /*------------------------------------end Navigation-----------------------------*/
 
