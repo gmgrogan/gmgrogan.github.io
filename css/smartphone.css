@@ -130,7 +130,7 @@ ul#mobile_menu li ul li:hover a {
 
 h1 {
 	border-color: white;
-	font-family: "sinkin_sans400_regular";
+	font-family: "sinkin_sans300_light";
 	color: white;
 	font-size: 1em;
 }
@@ -198,7 +198,7 @@ div.announcement {
 	bottom: 10%;
 	margin-top: 2%;
 	width: 50%;
-	opacity: 0.4;
+	opacity: 0.8;
 	margin-bottom: 5%;
 	z-index: -10;
 }
@@ -210,7 +210,7 @@ div.announcement {
 	margin-bottom: 5%;
 	padding-right: 3%;
 	padding-top: 2%;
-	padding-bottom: 2%;
+	padding-bottom: 40%;
 }
 li#contact h1 {
 	text-align: center;
@@ -393,6 +393,7 @@ div#countdown {
 	height: 100px;
 }
 input.button { 
+	margin-top: 17%;
 	padding-left: 30px;
 	padding-right: 30px;
 	padding-top: 15px;
