@@ -3,14 +3,35 @@
 <head>
     <meta charset="utf-8" />
     <title>Footage | Honeyfoot</title>
-    <link href="./css/main.css" rel="stylesheet" type="text/css" />
+    <link media="screen and (orientation: portrait)" href="./css/smartphone.css" rel="stylesheet" type="text/css"/>
+    <link media="screen and (orientation: landscape)" href="./css/main.css" rel="stylesheet" type="text/css" />
     <link rel="shortcut icon" type="image/x-icon" href="./images/interface/honeyfoot%20h%20icon.png" />
 </head>
 <body>
     <header>
+            <div class="dropdown_menu" id="mobile_nav_container">
+				<ul id="mobile_menu">
+					<li>
+						<a href="#"><img src="./images/interface/menu%20icon.png"  class="muted" id="menu_icon"></a>
+						<ul id="dropdown_container">
+						     <li><a href="./home" title="Home">Home</a></li>
+						     <li><a href="./about" title="About">About</a></li>
+            		                                <li><a href="./music" title="Music">Music</a></li>
+            		                                <li><a href="./shows" title="Shows">Shows</a></li>
+            		                                <li><a href="./footage" title="Footage">Footage</a></li>
+            		                                <li><a href="./contact" title="Contact">Contact</a></li>
+						</ul>
+					</li>
+				</ul>
+	        </div>
+	<div id="mobile_banner">
+	        <a href="./home"><img id="custom_honeyfoot_banner_name" src="./images/banners/honeycomb%20honeyfoot%20gold&white%20wide.png" alt="Honeyfoot Homepage" title="Honeyfoot Homepage"></a>
+	</div>
+        <div id="web_banner_small">
             <a href="./home"><img id="custom_honeyfoot_banner_name_small" src="./images/banners/honeycomb%20honeyfoot%20gold&white%20wide.png" alt="Honeyfoot Homepage" title="Honeyfoot Homepage"></a>
+        </div>
         <nav>
-    	    <div class="horizontal-table">
+    	    <div class="horizontal-table" id="horizontal_nav_container">
         	<ul id="navcontainer">
             		<li><a href="./about" title="About">About</a></li>
             		<li><a href="./music" title="Music">Music</a></li>
@@ -22,20 +43,22 @@
         </nav>
     </header>
     <div class="body-under-header">
+        <div class="mobile_header_margin">
     		<div class="feature">
 			<iframe width="560" height="315" src="https://www.youtube.com/embed/ftuDQ6t5p_4?autoplay=1" frameborder="0" allowfullscreen></iframe>
 			<p>&nbsp;</p>
 			<iframe width="560" height="315" src="https://www.youtube.com/embed/OutqBRHebJ0" frameborder="0" allowfullscreen></iframe>
 		</div>
+	</div>
     </div> <!--body under header-->
     <footer>
         <div id="footercont">
-            <div class="horizontal-table">
+            <div class="horizontal_table">
                     <ul id="footer_icons">
-                            <li><a href="http://www.facebook.com/honeyfootband" target="_blank"><img src="./images/interface/facebook.png"  alt="Facebook | Honeyfoot" title="Facebook | Honeyfoot" id="footericon"/></a></li>
-                            <li><a href="http://www.instagram.com/honeyfootband" target="_blank"><img src="./images/interface/instagram.png" alt="Instagram | Honeyfoot" title="Instagram | Honeyfoot" id="footericon"/></a></li>
-                            <li><a href="http://www.soundcloud.com/honeyfoot" target="_blank"><img src="./images/interface/soundcloud.png" alt="Soundcloud | Honeyfoot" title="Soundcloud | Honeyfoot" id="footericon"/></a></li>
-                            <li><a href="https://www.youtube.com/channel/UClcA8_L_LYvq7jnE2RSZVzg" target="_blank"><img src="./images/interface/youtube.png" alt="Youtube | Honeyfoot" title="Youtube | Honeyfoot" id="footericon"/></a></li>
+                            <li><a href="http://www.facebook.com/honeyfootband" target="_blank"><img src="./images/interface/facebook_lg.png"  alt="Facebook | Honeyfoot" title="Facebook | Honeyfoot" id="footericon"/></a></li>
+                            <li><a href="http://www.instagram.com/honeyfootband" target="_blank"><img src="./images/interface/instagram_lg.png" alt="Instagram | Honeyfoot" title="Instagram | Honeyfoot" id="footericon"/></a></li>
+                            <li><a href="http://www.soundcloud.com/honeyfoot" target="_blank"><img src="./images/interface/soundcloud_lg.png" alt="Soundcloud | Honeyfoot" title="Soundcloud | Honeyfoot" id="footericon"/></a></li>
+                            <li><a href="https://www.youtube.com/channel/UClcA8_L_LYvq7jnE2RSZVzg" target="_blank"><img src="./images/interface/youtube_lg.png" alt="Youtube | Honeyfoot" title="Youtube | Honeyfoot" id="footericon"/></a></li>
                     </ul>
             </div>
             <div id="copyright">

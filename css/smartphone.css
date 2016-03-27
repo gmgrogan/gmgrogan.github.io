@@ -26,24 +26,37 @@ header#big {
 	/*background-color: hsla(34, 85%, 87%, 0.6);*/
 	z-index: 20;
 }
+
 #custom_honeyfoot_banner_name {
 	max-width: 80%;
 	margin-top: 0.5%;
 	z-index: 21;
 	opacity: 0.9;
-	float: left;
-	margin-left: 3%;
-	height: 190px;
+	position: absolute;
+	left: 2%;
+	top: 0;
+	margin-left: 2%;
+	height: 210px;
 	padding: 5px;
-
 }
 #custom_honeyfoot_banner_name_small {
-	max-width: 39%;
+	display: hidden;
+	position: absolute;
+	left: -99999px;
+	/*----max-width: 39%;
 	margin-top: 0.5%;
 	z-index: 21;
-	opacity: 0.9;
+	opacity: 0.9; ----*/
+}
+div.mobile_header_margin {
+	margin-top: 300px;
 }
 
+div#web_banner_small {
+	display: hidden;
+	position: absolute;
+	left: -99999px;
+}
 /*---------------------------------------NAV---------------------------------------*/
 
 div#horizontal_nav_container {
@@ -59,8 +72,8 @@ div#mobile_nav_container {
 }
 
 img#menu_icon {
-	width: 250px;
-	height: 250px;
+	width: 230px;
+	height: 230px;
 	opacity: 0.7;
 }
 
@@ -80,7 +93,7 @@ ul#mobile_menu li:hover {
 
 ul#mobile_menu li:hover ul {
 	display: block;
-	top: 250px;
+	top: 240px;
 }
 
 ul#mobile_menu li ul {
@@ -91,7 +104,7 @@ ul#mobile_menu li ul {
 }
 
 ul#mobile_menu li ul li {
-	background-color: hsla(34, 85%, 17%, 0.8);
+	background-color: hsla(34, 85%, 17%, 0.7);
 	display: block;
 }
 
@@ -102,20 +115,16 @@ ul#mobile_menu li ul li a {
 	color: white;
 	text-decoration: none;
 	padding: 2%;
-	margin: 1%;
+	margin: 2%;
 	text-align: center;
-	padding-top: 10px;
+	padding-top: 40px;
 }
 
 ul#mobile_menu li ul li:hover a {
 	background-color: hsla(24, 85%, 17%, 1);
 	color: white;
-	opacity: 1;
+	opacity: 0.8;
 }
-
-
-	
-	
 
 /*------------------------------------end Navigation-----------------------------*/
 
@@ -179,70 +188,48 @@ div.announcement {
 	opacity: 0.8;
 }
 #feature_image {
-
 	max-width: 75%;
 	opacity: 0.9;
 	margin-bottom: 5%;
 }
 #contact_feature_image {
-	float: left;
+	position: absolute;
+	left: 25%;
+	bottom: 10%;
 	margin-top: 2%;
-	margin-left: 23%;
-	width: 18%;
+	width: 50%;
 	opacity: 0.8;
 	margin-bottom: 5%;
 }
 #contact_container {
 	/*background-color: hsla(34, 85%, 17%, 0.3);*/
 	background-color: hsla(0,100%,100%,0.15);
-	float: right;
-	max-width: 30%;
+	width: 90%;
 	margin-top: 2%;
 	margin-bottom: 5%;
-	margin-right: 24%;
-	margin-left: 2%;
 	padding-right: 3%;
 	padding-top: 2%;
 	padding-bottom: 2%;
 }
 li#contact h1 {
-	text-align: left;
+	text-align: center;
+	font-size: 1.5em;
 }
 #feature_image_small {
 	max-width: 70%;
 	opacity: 0.9;
 }	
-div#short_blurb  {
-	max-width: 40%;
-	color: white;
-	/*background-color: hsla(34, 85%, 17%, 0.3);*/
-	background-color: hsla(0,100%,100%,0.15);
-	text-align: left;
-	margin-top: 1.5%;
-	margin-right: 29.5%;
-	padding: 1.5%;
-}
-div#long_blurb {
-	max-width:40%;
-	padding: 1.5%;
-	
-}
-h1.longblurb {
-	color: white;
-	/*background-color: hsla(34, 85%, 17%, 0.3);*/
-	background-color: hsla(0,100%,100%,0.15);
-	width: auto;
-}
+
 h1.leftalign {
 	text-align: left;
 	text-indent: 30px;
 }
 div#narrowfeature {
-	max-width: 60%;
+	max-width: 80%;
 	margin-bottom: 2%;
 }
 div.feature {
-	margin-top: 2%;
+	margin-top: 10%;
 } 
 .bottom_margin {
 	margin-bottom: 10%;
@@ -300,37 +287,37 @@ div#copyright {
 
 /*-----------------------------bio popout stuff----------------------------*/
 img.bio {
-    width: 25%;
-    height: 35%;
+    width: 60%;
     margin: 1%;
+    left: -99999px;
+    position: absolute;
 }
-div#bio_feature li {
-    display: inline;
+div#bio_names_horizontal_list {
+	display: hidden;
+	position: absolute;
+	left: -99999px;
+}
+div.bio_feature li {
+    display: block;
     list-style: none;
     margin: 2%;
     margin-right: 4%;
     margin-left: -1%;
 }
-div#bio_feature {
+div.bio_feature {
     margin-top: 2%;
-    margin-bottom: 2%;
+    margin-bottom: 17%;
 } 
-ul.enlarge li {
-    position: relative;
-    z-index: 0;
+ul.enlarge li img {
+	width: 60%;
 }
+
 ul.enlarge span {
-    position: absolute;
-    left: -9999px;
+	position: relative;
+	width: 60%;
+	margin: 1%;
 }
-ul.enlarge li:hover {
-    z-index: 50;
-    cursor:pointer;
-}
-ul.enlarge li:hover span {
-    top: -400px;
-    left: -25%;
-}
+
 h2 {
     font-family:"Special Elite";
     font-size: 1.3em;
@@ -338,20 +325,34 @@ h2 {
     text-align: left;
     color: #ffffff;
     position: absolute;
-    top: 80%;
+    top: -100px;
     left: 1%;
-    width:auto;
+    width: auto;
 }
 p.quote {
     font-size: 0.8em;
     text-align: center;
 }
-ul.enlarge li:hover:nth-child(2) span {
-    left -10%;
+div.short_blurb  {
+	max-width: 85%;
+	color: white;
+	/*background-color: hsla(34, 85%, 17%, 0.3);*/
+	background-color: hsla(0,100%,100%,0.15);
+	padding: 2%;
 }
-ul.enlarge li:hover:nth-child(3) span {
-    left: -20%;
+
+div.mobile_blurbs {
+	color: white;
+	background-color: hsla(0,100%,100%,0.15);
+	padding: 2%;
 }
+
+div#web_blurbs {
+	display: hidden;
+	position: absolute;
+	left: -99999px;
+}
+
 /*----------------------end Bio Popout Stuff---------------------------*/
 /*---------------------CLOCK------------------*/
 div#clockdiv {
@@ -366,28 +367,47 @@ div#countdown {
 }
 /*----------------Mail Chimp Form Style ------------------------------*/
 #mce-EMAIL {
-	width: 80%;
+	width: 90%;
 }
 #mc_embed_signup {
 	background:hsla(0,100%,100%,0); 
 	clear:left; 
-	font-size: 1em; 
-	width:95%; 
+	font-size: 2em; 
+	width:100%; 
 	padding: 3%;
 }
 #mc_embed_signup input.email {
 	font-family: 'bearpawregular'; 
-	font-size: 1.3em;
+	font-size: 1.8em;
 	background-color: hsla(0,100%,100%,0.7);
 	color: #000000;
-	height: 25px;
+	height: 60px;
 }
 #mc_embed_signup .button {
 	font-family: 'bearpawregular'; 
-	font-size: 1.6em;
+	font-size: 2em;
 	background-color: #eeb81c;
 	opacity: 0.9;
 	color: white;
-	height: 40px;
+	height: 100px;
 }
+input.button { 
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 15px;
+}
+	
 /*---------------------END Mail Chimp FORM----------------------*/
+
+/*----------------MUSIC--------------*/
+div#web_music_widget {
+	display: hidden;
+	position: absolute;
+	left: -99999px;
+}
+div#mobile_music_widget {
+	position: absolute;
+	top: 20%;
+	left: 0%;
+	width: 100%;
+}

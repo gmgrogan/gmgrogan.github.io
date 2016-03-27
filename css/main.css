@@ -39,6 +39,12 @@ header#big {
 	opacity: 0.9;
 }
 
+div#mobile_banner {
+	display: hidden;
+	position: absolute;
+	left: -99999px;
+}
+
 /*---------------------------------------NAV---------------------------------------*/
 
 div#mobile_nav_container {
@@ -228,27 +234,7 @@ li#contact h1 {
 	max-width: 20%;
 	opacity: 0.9;
 }	
-div#short_blurb  {
-	max-width: 40%;
-	color: white;
-	/*background-color: hsla(34, 85%, 17%, 0.3);*/
-	background-color: hsla(0,100%,100%,0.15);
-	text-align: left;
-	margin-top: 1.5%;
-	margin-right: 29.5%;
-	padding: 1.5%;
-}
-div#long_blurb {
-	max-width:40%;
-	padding: 1.5%;
-	
-}
-h1.longblurb {
-	color: white;
-	/*background-color: hsla(34, 85%, 17%, 0.3);*/
-	background-color: hsla(0,100%,100%,0.15);
-	width: auto;
-}
+
 h1.leftalign {
 	text-align: left;
 	text-indent: 30px;
@@ -320,10 +306,20 @@ img.bio {
     height: 35%;
     margin: 1%;
 }
+div.short_blurb  {
+	max-width: 40%;
+	color: white;
+	/*background-color: hsla(34, 85%, 17%, 0.3);*/
+	background-color: hsla(0,100%,100%,0.15);
+	text-align: left;
+	margin-top: 1.5%;
+	margin-right: 29.5%;
+	padding: 1.5%;
+}
 div.feature_box {
 	    margin: 0%;
 	  }
-div#bio_feature li {
+div.bio_feature li {
     display: inline;
     list-style: none;
     margin-right: 3.5%;
@@ -338,6 +334,11 @@ div.bio_title_box {
 }
 .bio_title {
 	display: inline;
+}
+div.mobile_blurbs {
+	display: hidden;
+	position: absolute;
+	left: -99999px;
 }
 ul.enlarge li {
     position: relative;
@@ -411,3 +412,13 @@ div#countdown {
 	height: 40px;
 }
 /*---------------------END Mail Chimp FORM----------------------*/
+
+/*-----------------MUSIC---------------*/
+div#mobile_music_widget {
+	display: hidden;
+	position: absolute;
+	left: -999999px;
+}
+div#web_music_widget {
+	margin-bottom: 50px;
+}
