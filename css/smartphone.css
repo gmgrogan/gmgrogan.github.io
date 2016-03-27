@@ -54,8 +54,9 @@ div#mobile_nav_container {
 }
 
 img#menu_icon {
-	width: 100px;
-	height: 100px;
+	width: 200px;
+	height: 200px;
+	opacity: 0.5;
 }
 
 ul#mobile_menu, ul#dropdown_container {
@@ -74,7 +75,7 @@ ul#mobile_menu li:hover {
 
 ul#mobile_menu li:hover ul {
 	display: block;
-	top: 100px;
+	top: 200px;
 }
 
 ul#mobile_menu li ul {
