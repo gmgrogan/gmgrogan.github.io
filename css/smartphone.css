@@ -111,13 +111,15 @@ ul#mobile_menu li ul li {
 ul#mobile_menu li ul li a {
 	display: block;
 	font-family: 'bearpawregular';
-	font-size: 12em;
+	font-size: 9em;
 	color: white;
 	text-decoration: none;
-	padding: 2%;
+	padding: 1%;
 	margin: 2%;
 	text-align: center;
 	padding-top: 40px;
+	padding-left: 40px;
+	padding-right: 40px;
 }
 
 ul#mobile_menu li ul li:hover a {
@@ -226,7 +228,7 @@ h1.leftalign {
 	text-indent: 30px;
 }
 div#narrowfeature {
-	max-width: 80%;
+	max-width: 90%;
 	margin-bottom: 2%;
 }
 div.feature {
@@ -412,4 +414,7 @@ div#mobile_music_widget {
 	top: 20%;
 	left: 0%;
 	width: 100%;
+}
+div#mobile_bandsintown_widget * {
+	font-size: 1.1em;
 }
