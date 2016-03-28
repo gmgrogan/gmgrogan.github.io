@@ -5,7 +5,7 @@
 @import url('../fonts/sinkin-sans-fontfacekit/web%20fonts/sinkinsans_200xlightitalic_macroman/stylesheet.css');
 @import url('../fonts/sinkin-sans-fontfacekit/web%20fonts/sinkinsans_400regular_macroman/stylesheet.css');
 @import url('../fonts/sinkin-sans-fontfacekit/web%20fonts/sinkinsans_300light_macroman/stylesheet.css');
-@import url('//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css');
+@import url('http://cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css');
 
 * {
 	margin: auto;
@@ -322,13 +322,14 @@ div.feature_box {
 div.bio_feature li {
     display: inline;
     list-style: none;
-    margin-right: 3.5%;
-    margin-left: 0%;
+    margin-right: 2%;
+    margin-left: 1%;
 }
+
 div.bio_title_box {
 	display: inline-block;
 	width: 18%;
-	margin-right: 4%;
+	margin-right: 7%;
 	margin-left: 4.5%;
 	margin-top: 2%;
 }
@@ -353,8 +354,9 @@ ul.enlarge li:hover {
     cursor:pointer;
 }
 ul.enlarge li:hover span.disappear {
-    top: -400px;
-    left: -25%;
+	position: absolute;
+    	top: -400px;
+    	left: -100px;
 }
 h2 {
     font-family:"Special Elite";
@@ -364,7 +366,7 @@ h2 {
     color: #ffffff;
     position: absolute;
     top: 80%;
-    left: 1%;
+    left: 21%;
     width: auto;
 }
 ul.enlarge li:hover:nth-child(2) span {
@@ -386,24 +388,24 @@ div#countdown {
 	margin-top: 1%;
 }
 /*----------------Mail Chimp Form Style ------------------------------*/
-#mce-EMAIL {
-	width: 80%;
-}
-#mc_embed_signup {
+
+div#mc_embed_signup {
 	background:hsla(0,100%,100%,0); 
 	clear:left; 
 	font-size: 1em; 
 	width:95%; 
 	padding: 3%;
 }
-#mc_embed_signup input.email {
+div#mc_embed_signup input.email {
 	font-family: 'bearpawregular'; 
 	font-size: 1.3em;
 	background-color: hsla(0,100%,100%,0.7);
-	color: #000000;
+	color: brown;
 	height: 25px;
+	width: auto;
 }
-#mc_embed_signup .button {
+
+div#mc_embed_signup input.button {
 	font-family: 'bearpawregular'; 
 	font-size: 1.6em;
 	background-color: #eeb81c;
