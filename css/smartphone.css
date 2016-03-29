@@ -198,11 +198,11 @@ div.announcement {
 }
 #contact_feature_image {
 	position: absolute;
-	left: 25%;
-	top: 45%;
+	left: 15%;
+	top: 25%;
 	margin-top: 2%;
-	width: 45%;
-	opacity: 0.8;
+	width: 70%;
+	opacity: 0.6;
 	margin-bottom: 5%;
 	z-index: -10;
 }
@@ -218,6 +218,7 @@ div.announcement {
 }
 div#contact_container ul#contact_list li#contact h1 {
 	text-align: center;
+	font-family: 'sinkin_sans300_light';
 	font-size: 1.5em;
 	color: white;
 }
@@ -393,7 +394,7 @@ div#mc_embed_signup .button {
 	font-family: 'bearpawregular'; 
 	font-size: 2em;
 	background-color: #eeb81c;
-	opacity: 0.9;
+	opacity: 1;
 	color: white;
 	height: 100px;
 }
