@@ -150,7 +150,7 @@ a {
 }
 .bold_sinkin_sans {
 	font-family: "sinkin_sans400_regular";
-	color: white;
+	color: hsla(34, 85%, 17%, 0.7);
 	font-size: 1.2em;
 }
 div.ticket_link a {
