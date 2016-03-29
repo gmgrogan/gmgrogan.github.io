@@ -150,8 +150,8 @@ a {
 }
 .bold_sinkin_sans {
 	font-family: "sinkin_sans400_regular";
-	color: hsla(34, 85%, 17%, 0.8);
-	font-size: 1.3em;
+	color: white;
+	font-size: 1.2em;
 }
 div.ticket_link a {
 	font-family: 'bearpawregular';
@@ -220,7 +220,7 @@ div.announcement {
 div#contact_container ul#contact_list li#contact h1 {
 	text-align: center;
 	font-family: 'sinkin_sans300_light';
-	font-size: 1.9em;
+	font-size: 2em;
 	color: hsla(34, 85%, 17%, 0.8);
 }
 #feature_image_small {
