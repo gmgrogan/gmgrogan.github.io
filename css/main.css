@@ -450,3 +450,8 @@ div#mobile_music_widget {
 div#web_music_widget {
 	margin-bottom: 50px;
 }
+div#mobile_bandsintown_widget a.bit-track-artist-header {
+	display: hidden;
+	position: absolute;
+	left: -999999px;
+}
