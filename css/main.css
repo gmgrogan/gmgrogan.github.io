@@ -56,7 +56,7 @@ nav {
 	margin-top: 1.5%;
 	width: 100%;
 	/*background-color: hsla(34, 85%, 87%, 0.6);*/
-	z-index: 20;
+	z-index: 30;
 }
 #navcontainer ul {
 	/*position: fixed;*/
@@ -65,12 +65,14 @@ nav {
 	text-align: center;
 	width: 60%;
 	left: 20%;
+	z-index: 30;
 } 
 ul#navcontainer li {
 	border-color: gray;
 	display: inline-block;
 	margin-right: 3.2%;
 	margin-left: -2%;
+	z-index: 30;
 }
 ul#navcontainer li a {
 	font-family: 'bearpawregular', 'Arial';
@@ -80,6 +82,25 @@ ul#navcontainer li a {
 	/*color: #FABC02;*/
 	/*color: #EEB81C;*/
 	opacity: 0.9;
+	position: relative;
+	z-index: 30;
+}
+ul#navcontainer li a#bright_brown {
+color: hsla(34,85%,17%,1);
+}
+ul#navcontainer li a#honeycomb {
+	color: #eeb81c;
+}
+ul#navcontainer li a#white_text {
+	color: white;
+}
+ul.background_white li {
+	position: relative;
+	background-color: hsla(0,100%,100%, 0.4);
+	padding-top: 7px;
+	padding-left: 7px;
+	padding-right: 7px;
+	z-index: 30;
 }
 
 /* div#mobile_nav_container {
@@ -201,10 +222,14 @@ div.announcement {
 	margin-top: 1%
 }
 #feature_image {
-
-	max-width: 35%;
+	position: absolute;
+	width: 35%;
 	opacity: 0.9;
 	margin-bottom: 5%;
+	float: top;
+	top: 20%;
+	left: 32.5%;
+	z-index: 25;
 }
 #contact_feature_image {
 	float: left;
@@ -265,6 +290,7 @@ footer {
 	width: 100%;
 	height: 35px;
 	background-color: hsla(34, 85%, 17%, 0.6);
+	z-index: 100;
 }
 div#footercont {
 	position: relative;
