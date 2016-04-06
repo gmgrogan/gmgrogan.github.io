@@ -161,19 +161,19 @@ div.ticket_link a {
 div.ticket_link {
 	margin: 2%;
 }
-p.medium_text {
+.medium_text {
 	font-size: 8em;
 }
-p.lg_text {
+.lg_text {
 	font-size: 10em;
 }
-p.extra_lg_text {
+.extra_lg_text {
 	font-size: 15em;
 }
-p.bearpaw {
+.bearpaw {
 	font-family: 'bearpawregular';
 }
-p.white_text { 
+.white_text { 
 	color: white;
 }
 .brown_text {
@@ -195,6 +195,11 @@ div.announcement {
 	max-width: 75%;
 	opacity: 0.9;
 	margin-bottom: 5%;
+}
+#feature_announcement {
+	background-color: hsla(43,87%,17%,0.2);
+	width: 90%;
+	margin-bottom: 15%;
 }
 #contact_feature_image {
 	position: absolute;
