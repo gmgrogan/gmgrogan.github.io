@@ -194,23 +194,23 @@ div.ticket_link a {
 .gold_text {
 	color: #eeb81c;
 }
-p.sm_text {
+.sm_text {
 	font-size: 2em;
 }
-p.medium_text {
+.medium_text {
 	font-size: 4em;
 }
-p.lg_text {
+.lg_text {
 	font-size: 6em;
 }
-p.extra_lg_text {
+.extra_lg_text {
 	font-size: 10em;
 }
-p.bearpaw {
+.bearpaw {
 	font-style: bold;
 	font-family: 'bearpawregular';
 }
-p.white_text {
+.white_text {
 	color: white;
 }
 .muted {
@@ -223,13 +223,26 @@ div.announcement {
 }
 #feature_image {
 	position: absolute;
-	width: 35%;
-	opacity: 0.9;
+	width: 50%;
+	opacity: 1;
 	margin-bottom: 5%;
 	float: top;
+	left: -7%;
 	top: 20%;
-	left: 32.5%;
+
 	z-index: 25;
+}
+#feature_announcement {
+	margin-top: 1%;
+	width: 35%;
+	position: relative;
+	float: right;
+	background-color: hsla(34, 87%, 17%, 0.3);
+	right: 29%;
+	text-align: center;
+}
+div#feature_announcement span {
+	font-size: 120%;
 }
 #contact_feature_image {
 	float: left;
