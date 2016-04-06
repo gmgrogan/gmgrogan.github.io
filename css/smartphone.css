@@ -202,7 +202,9 @@ div.announcement {
 	margin-bottom: 20%;
 }
 div#feature_announcement  span {
-	font-size: 120%;
+	font-family: 'sinkin_sans400_regular';
+	font-size: 110%;
+	
 }
 #contact_feature_image {
 	position: absolute;
