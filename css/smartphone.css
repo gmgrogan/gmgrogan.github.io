@@ -201,6 +201,9 @@ div.announcement {
 	width: 90%;
 	margin-bottom: 20%;
 }
+div#feature_announcement  span {
+	font-size: 120%;
+}
 #contact_feature_image {
 	position: absolute;
 	left: 15%;
