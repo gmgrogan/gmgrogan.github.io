@@ -192,14 +192,14 @@ div.announcement {
 	opacity: 0.8;
 }
 #feature_image {
-	max-width: 80%;
+	max-width: 85%;
 	opacity: 0.9;
 	margin-bottom: 5%;
 }
 #feature_announcement {
 	background-color: hsla(43,87%,17%,0.3);
 	width: 90%;
-	margin-bottom: 15%;
+	margin-bottom: 20%;
 }
 #contact_feature_image {
 	position: absolute;
