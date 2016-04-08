@@ -161,6 +161,9 @@ div.ticket_link a {
 div.ticket_link {
 	margin: 2%;
 }
+.sm_text {
+	font-size: 5em;
+}
 .medium_text {
 	font-size: 8em;
 }
@@ -184,6 +187,31 @@ div.ticket_link {
 }
 .gold_text {
 	color: #eeb81c;
+}
+.brown_bg {
+	color: #423300;
+}
+.green_text {
+	color: #d8cc3d;
+}
+.orange_text {
+	color: #d47b32;
+}
+
+/*------------------------- feature stuff ---------------------*/
+div#continue_home {
+	position: absolute;
+	bottom: 15%;
+	left: 25%;
+	background-color: hsla(0,100%,100%,0.7);
+	border-style: solid;
+	border-color: #423300;
+	padding:10px;
+	padding-left: 100px;
+	padding-right: 100px;
+}
+#continue_home a {
+	color: #423300;
 }
 div.announcement {
 	margin-top: 1%
@@ -255,7 +283,7 @@ div.feature {
 div#tell_me_moar {
 	position: absolute;
 	left: 3%;
-	top: 30%;
+	top: 27%;
 }
 img#tell_me_mas {
 	width: 70%;

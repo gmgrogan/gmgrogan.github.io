@@ -218,6 +218,18 @@ div.ticket_link a {
 }
 
 /*--------------------FEATURES-------------------*/
+div#continue_home {
+	position: absolute;
+	right: 5px;
+	top: 5px;
+	background-color: hsla(46, 100%, 13%, 0.8);
+	border-style: solid;
+	border-color: hsla(0,100%,100%,0.8);
+	padding:20px;
+}
+#continue_home a {
+	color: #ffffff;
+}
 div.announcement {
 	margin-top: 1%
 }
