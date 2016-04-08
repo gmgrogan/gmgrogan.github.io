@@ -201,7 +201,7 @@ div.ticket_link {
 /*------------------------- feature stuff ---------------------*/
 div#continue_home {
 	position: absolute;
-	bottom: 15%;
+	bottom: 10%;
 	left: 25%;
 	background-color: hsla(0,100%,100%,0.7);
 	border-style: solid;
@@ -262,7 +262,7 @@ div#contact_container ul#contact_list li#contact h1 {
 	color: hsla(34, 85%, 17%, 0.8);
 }
 #feature_image_small {
-	max-width: 70%;
+	width: 48%;
 	opacity: 0.9;
 }	
 
