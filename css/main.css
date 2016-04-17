@@ -256,6 +256,12 @@ div.announcement {
 div#feature_announcement span {
 	font-size: 120%;
 }
+div#honeyfoot_definition {
+	margin-left: 5%;
+}
+div#feature_announcement div#honeyfoot_definition h1 {
+	text-align: left !important;
+}
 #contact_feature_image {
 	float: left;
 	margin-top: 2%;
@@ -278,7 +284,7 @@ div#feature_announcement span {
 	padding-bottom: 2%;
 }
 li#contact h1 {
-	text-align: left;
+	text-align: center;
 }
 #feature_image_small {
 	max-width: 20%;
@@ -305,6 +311,9 @@ div#tell_me_moar {
 }
 img#tell_me_mas {
 	width: 60%;
+}
+img.full_poster {
+	width: 40%;
 }
 
 
