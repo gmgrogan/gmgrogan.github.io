@@ -42,7 +42,68 @@
     </header>
     <div class="body_under_header">
         <div class="mobile_header_margin">
-    		<div class="feature">
+    	    <div id="fullcountdownpacket">
+    		<div id="countdown">
+    			<p class="lg_text white_text bearpaw">COUNTDOWN<br>TO THE</p>
+    		</div>
+    		<div id="tell_me_moar" >
+    		        <img src="./images/interface/tell%20me%20more.png" alt="Click the honey pot for more info" title="Tell me MOAR!" id="tell_me_mas">
+    		</div>
+    		<div id="countdown_feature_image">
+			<a href="./honeypot" target="_blank"><img src="./images/cartoons/honey%20pot%20color.png" alt="Honey Pot" id="feature_image_small" title="Honey Pot. &copy 2015 Gillian Grogan."/></a>
+		</div>
+		<div class="countdown_js margin_bottom">
+		        <script>
+		        var deadline = 'April 1 2017 19:00:00 UTC-05:00';
+		        
+		        function getTimeRemaining(endtime) {
+		                var t = Date.parse(endtime) - Date.parse(new Date());
+		                var seconds = Math.floor( (t/1000) % 60 );
+		                var minutes = Math.floor( (t/1000/60) % 60 );
+		                var hours = Math.floor( (t/(1000*60*60)) % 24 );
+		                var days = Math.floor( t/(1000*60*60*24) );
+		                return {
+		                        'total' : t,
+		                        'days' : days,
+		                        'hours' : hours,
+		                        'minutes' : minutes,
+		                        'seconds' : seconds
+		                };
+		        }
+	                </script>
+	                <div id="clockdiv">
+	                    <span class="days"></span> :
+	                    <span class="hours"></span> :
+	                    <span class="minutes"></span> :
+	                    <span class="seconds"></span>
+	                </div>
+	                <script>
+		        function initializeClock(id, endtime) {
+		             var clock = document.getElementById(id);
+		             var daysSpan = clock.querySelector('.days');
+                                var hoursSpan = clock.querySelector('.hours');
+                                var minutesSpan = clock.querySelector('.minutes');
+                                var secondsSpan = clock.querySelector('.seconds');
+                                
+                                function updateClock() {
+                                var t = getTimeRemaining(endtime);
+                                        daysSpan.innerHTML = ('0' + t.days).slice(-2);
+                                        hoursSpan.innerHTML = ('0' + t.hours).slice(-2);
+                                        minutesSpan.innerHTML = ('0' + t.minutes).slice(-2);
+                                        secondsSpan.innerHTML = ('0' + t.seconds).slice(-2);
+                                        if(t.total<=0) {
+                                            clearInterval(timeinterval);
+                                        }
+                                }
+                                updateClock();
+                                var timeinterval = setInterval(updateClock,1000);
+                        }
+                        initializeClock('clockdiv', deadline);
+                        </script> 
+                             
+    </div> 
+    </div>
+                <!--<div class="feature">
 			<img src="./images/profile/full-color-char-03.png" alt="The Band Honeyfoot" id="feature_image" title="The Band Honeyfoot. &copy 2015 Gillian Grogan."/>
 		</div>
 		<div id="feature_announcement"> 
@@ -63,7 +124,7 @@
                     </ul>
             </div>
             <div id="copyright">
-                    <h4>&copy 2016 Honeyfoot. All Rights Reserved.</h4>
+                    <h4>&copy 2017 Honeyfoot. All Rights Reserved.</h4>
             </div>
         </div> <!--footercont-->
     </footer>
