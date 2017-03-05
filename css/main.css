@@ -216,9 +216,6 @@ div.ticket_link a {
 .muted {
 	opacity: 0.8;
 }
-.honeypotlink {
-	font-family: 'sinkin_sans400_regular'
-}
 
 /*--------------------FEATURES-------------------*/
 div#continue_home {
@@ -497,4 +494,8 @@ div#mobile_bandsintown_widget a.bit-track-artist-header {
 	display: hidden;
 	position: absolute;
 	left: -999999px;
+}
+#honeypotlink {
+	font-family: 'sinkin_sans400_regular'
+	color: #eeb81c;
 }
