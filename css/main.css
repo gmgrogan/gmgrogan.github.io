@@ -434,17 +434,6 @@ h2 {
     left: 21%;
     width: auto;
 }
-h3 {
-    font-family:"Special Elite";
-    font-size: 1.2em;
-    background-color: hsla(0,0%,10%,0.6);
-    text-align: center;
-    color: #ffffff;
-    position: absolute;
-    width: auto;
-    padding-top: 0.5%;
-    
-}
 ul.enlarge li:hover:nth-child(2) span {
     left -10%;
 }
@@ -510,10 +499,4 @@ div#mobile_bandsintown_widget a.bit-track-artist-header {
 #honeypotlink {
 	font-family: 'sinkin_sans400_regular'
 	color: #eeb81c;
-}
-#preorder_link {
-	position: absolute;
-	right: -8%;
-	top: -5%;
-
 }
