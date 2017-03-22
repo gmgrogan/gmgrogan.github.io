@@ -435,8 +435,7 @@ h2 {
     width: auto;
 }
 h2#bottomfeature {
-	position: absolute;
-	left: 35%;
+	position: relative;
 	width: 30%;
 	padding-top: 0.5%;
 }
