@@ -440,10 +440,8 @@ h3 {
     background-color: hsla(0,0%,10%,0.6);
     text-align: center;
     color: #ffffff;
-    position: relative;
+    position: absolute;
     width: auto;
-    top: 10%;
-    left: 50%;
     padding-top: 0.5%;
     
 }
@@ -514,7 +512,7 @@ div#mobile_bandsintown_widget a.bit-track-artist-header {
 	color: #eeb81c;
 }
 #preorder_link {
-	position: relative;
+	position: absolute;
 	right: -8%;
 	top: -5%;
 
