@@ -440,7 +440,7 @@ h3#bottomfeature {
     background-color: hsla(0,0%,10%,0.6);
     text-align: center;
     color: #ffffff;
-    position: absolute;
+    position: relative;
     width: auto;
     top: 10%;
     left: 50%;
