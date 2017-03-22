@@ -438,12 +438,14 @@ h3#bottomfeature {
     font-family:"Special Elite";
     font-size: 1.2em;
     background-color: hsla(0,0%,10%,0.6);
-    text-align: left;
+    text-align: center;
     color: #ffffff;
     position: absolute;
     width: auto;
-    top: 80%;
-    left: 21%;
+    top: 10%;
+    left: 50%;
+    padding-top: 0.5%;
+    
 }
 ul.enlarge li:hover:nth-child(2) span {
     left -10%;
