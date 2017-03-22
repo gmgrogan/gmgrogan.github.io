@@ -435,9 +435,9 @@ h2 {
     width: auto;
 }
 h2#bottomfeature {
-	position: relative;
+	position: absolute;
 	width: 30%;
-	right: 5%;
+	left: 25%;
 	padding-top: 0.5%;
 }
 ul.enlarge li:hover:nth-child(2) span {
