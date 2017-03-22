@@ -245,7 +245,7 @@ div.announcement {
 	z-index: 25;
 }
 #feature_announcement {
-	margin-top: -3%;
+	margin-top: -1%;
 	margin-bottom: 3%;
 	width: 35%;
 	position: relative;
@@ -254,6 +254,7 @@ div.announcement {
 	right: 29%;
 	text-align: center;
 }
+
 div#feature_announcement span {
 	font-size: 120%;
 }
@@ -433,6 +434,12 @@ h2 {
     left: 21%;
     width: auto;
 }
+h2.bottomfeature {
+	position: absolute;
+	right: 15%;
+	width: 30%;
+	padding-top: 0.5%;
+}
 ul.enlarge li:hover:nth-child(2) span {
     left -10%;
 }
@@ -498,4 +505,10 @@ div#mobile_bandsintown_widget a.bit-track-artist-header {
 #honeypotlink {
 	font-family: 'sinkin_sans400_regular'
 	color: #eeb81c;
+}
+#preorder_link {
+	position: relative;
+	right: -5%;
+	top: -1%;
+
 }
